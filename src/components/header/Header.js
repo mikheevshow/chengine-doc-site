@@ -2,11 +2,13 @@ import React from 'react'
 import {Navbar, Nav, NavbarBrand, NavItem, NavLink, NavbarText} from "reactstrap";
 import {siteName, links, gitHubLink, gitHubName} from "./header-items";
 
+import './Header.css'
+
 class Header extends React.Component {
     render() {
         return (
             <header className="header">
-                <Navbar>
+                <Navbar className="header-content">
                     <NavbarBrand>{siteName}</NavbarBrand>
                     <Nav className="mr-auto">
                         {
@@ -20,9 +22,9 @@ class Header extends React.Component {
                         }
                     </Nav>
                     <NavbarText>
-                        <a href={gitHubLink}>
-                            <div>{gitHubName}</div>
-                            <div>
+                        <a target="_blank" rel="noopener noreferrer" className="github-link" href={gitHubLink}>
+                            <div className="github-link-item">{gitHubName}</div>
+                            <div className="github-link-item">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                                      className="bi bi-arrow-up-right-square" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd"

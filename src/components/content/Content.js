@@ -1,11 +1,14 @@
 import React from 'react'
 
+import './Content.css'
+import Article from "../article/Article";
+import {quickStart} from "../../data/articles/quick-start";
 
 class Content extends React.Component {
     render() {
         return (
-            <div>Here need to be returned content</div>
-        )
+            <Article content={quickStart}/>
+        );
     }
 }
 
