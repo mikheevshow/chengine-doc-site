@@ -1,8 +1,9 @@
 import React from 'react'
 import './MainPage.css'
-import {Button} from "reactstrap";
 import {advantages} from "./advantages-data";
 import ReactHtmlParser from 'react-html-parser';
+import Card from "./Card";
+import './Card.css'
 
 class MainPage extends React.Component {
     render() {
@@ -10,12 +11,12 @@ class MainPage extends React.Component {
             <div className="main-page">
                 <div className="main-page-landing">
                     <div>
-                        <p className="h1">Chengine</p>
-                        <p>Удобный Java фреймворк для создания чат ботов</p>
+                        <h1>Chengine</h1>
+                        <p>Java фреймворк для создания чат ботов</p>
                     </div>
-                    <div className="main-page-langing-buttons">
-                        <Button className="m-3 btn btn-warning text-dark">Начало работы</Button>
-                        <Button className="m-3 btn btn-warning text-dark">Рецепты</Button>
+                    <div className="main-page-landing-buttons">
+                        <Card title="Готовы начать?" text="Пройдите базовые уроки для начала работы с Chengine." buttonText="Быстрый старт"/>
+                        <Card title="Книга рецептов" text="Здесь вы найдете примеры использования различных конструкций фреймворка." buttonText="Выпекаем"/>
                     </div>
                 </div>
                 <div className="main-page-advantages">

@@ -9,7 +9,7 @@ export const quickStart = {
             content: [
                 {
                     type: 'text',
-                    content: 'Если вы используете maven, добавьте следующие строки в ваш <span class="text-badge">pom.xml</span> файл:'
+                    content: 'Если вы используете maven, добавьте следующие строки в ваш <span class="text-badge text-monospace">pom.xml</span> файл:'
                 },
                 {
                     type: 'code',

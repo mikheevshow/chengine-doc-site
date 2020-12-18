@@ -5,6 +5,11 @@
     flex-direction: column;
     justify-content: center;
     alignment: center;
+    color: #264653;
+}
+
+.main-page-landing h1 {
+    font-weight: bold;
 }
 
 .main-page-landing .btn {
@@ -16,6 +21,8 @@
 .main-page-landing-buttons {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .main-page-advantages {
@@ -25,7 +32,7 @@
 }
 
 .main-page-advantages-item {
-    width: 250px;
+    width: 300px;
     display: flex;
     flex-direction: column;
 }

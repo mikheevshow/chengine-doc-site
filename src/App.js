@@ -1,13 +1,24 @@
 import './App.css';
 import Header from "./components/header/Header";
-import Content from "./components/content/Content";
-import Footer from "./components/footer/Footer";
+import {BrowserRouter as Router, Switch, Route} from "react-router-dom"
+import MainPage from "./components/main/MainPage";
+import Article from "./components/article/Article";
+import {quickStart} from "./data/articles/quick-start";
 
 function App() {
     return (
         <div className="App">
-            <Header/>
-            <Content/>
+            <Router>
+                <Header/>
+                <Switch>
+                    <Route exact path="/">
+                        <MainPage/>
+                    </Route>
+                    <Route path="/doc">
+                        <Article content={quickStart}/>
+                    </Route>
+                </Switch>
+            </Router>
         </div>
     );
 }

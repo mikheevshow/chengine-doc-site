@@ -8,7 +8,7 @@ export const art = {
                 {
                     type: 'text',
                     content: 'Chengine предоставляет специальную аннотацию ' +
-                        '<span class="text-badge">@HandlerComponent</span>, ' +
+                        '<span class="text-badge text-monospace">@HandlerComponent</span>, ' +
                         'которая позволяет создать обработчик команд, как Spring комонент:'
                 },
                 {

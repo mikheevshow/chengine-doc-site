@@ -1,6 +1,7 @@
 import React from 'react'
 import {Navbar, Nav, NavbarBrand, NavItem, NavLink, NavbarText} from "reactstrap";
 import {siteName, links, gitHubLink, gitHubName} from "./header-items";
+import {Link} from "react-router-dom"
 
 import './Header.css'
 
@@ -9,13 +10,17 @@ class Header extends React.Component {
         return (
             <header className="header">
                 <Navbar className="header-content">
-                    <NavbarBrand>{siteName}</NavbarBrand>
+                    <NavbarBrand className="header-logo">
+                        <Link to="/">{siteName}</Link>
+                    </NavbarBrand>
                     <Nav className="mr-auto">
                         {
                             links.map(item => {
                                 return (
                                     <NavItem>
-                                        <NavLink href={item.route}>{item.name}</NavLink>
+                                        <NavLink>
+                                            <Link to={item.route}>{item.name}</Link>
+                                        </NavLink>
                                     </NavItem>
                                 )
                             })

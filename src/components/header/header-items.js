@@ -6,10 +6,10 @@ export const gitHubLink = 'https://www.github.com/mikheevshow/chengine'
 export const links = [
     {
         name: 'Документация',
-        route: ''
+        route: '/doc'
     },
     {
         name: 'Введение',
-        route: ''
+        route: '/'
     }
 ]

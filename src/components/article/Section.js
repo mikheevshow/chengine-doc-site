@@ -2,6 +2,8 @@ import React from 'react'
 import {Prism} from 'react-syntax-highlighter';
 import ReactHtmlParser from 'react-html-parser';
 import {dracula} from "react-syntax-highlighter/src/styles/prism";
+import PropTypes from 'prop-types';
+
 
 
 class Section extends React.Component {
@@ -29,6 +31,10 @@ class Section extends React.Component {
             </div>
         )
     }
+}
+
+Section.propTypes = {
+    content: PropTypes.object.isRequired
 }
 
 export default Section
