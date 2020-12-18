@@ -38,6 +38,10 @@
   }
 }
 
+a {
+  text-decoration: none;
+}
+
 .unselectable {
   -webkit-touch-callout: none;
   -webkit-user-select: none;

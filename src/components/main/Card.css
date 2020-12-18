@@ -8,6 +8,15 @@
     justify-content: space-between;
     flex-direction: column;
     cursor: pointer;
+    margin: 10px;
+}
+
+.c-body a {
+    height: 100%;
+}
+
+.c-body a:hover {
+    text-decoration: none;
 }
 
 .c-body:hover {

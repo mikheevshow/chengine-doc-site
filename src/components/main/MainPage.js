@@ -4,6 +4,8 @@ import {advantages} from "./advantages-data";
 import ReactHtmlParser from 'react-html-parser';
 import Card from "./Card";
 import './Card.css'
+import {cards} from "./cards-data";
+import {Link} from "react-router-dom";
 
 class MainPage extends React.Component {
     render() {
@@ -15,8 +17,7 @@ class MainPage extends React.Component {
                         <p>Java фреймворк для создания чат ботов</p>
                     </div>
                     <div className="main-page-landing-buttons">
-                        <Card title="Готовы начать?" text="Пройдите базовые уроки для начала работы с Chengine." buttonText="Быстрый старт"/>
-                        <Card title="Книга рецептов" text="Здесь вы найдете примеры использования различных конструкций фреймворка." buttonText="Выпекаем"/>
+                        {cards.map(item => {return (<Card {...item}/>)})}
                     </div>
                 </div>
                 <div className="main-page-advantages">
