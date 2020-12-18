@@ -1,10 +1,7 @@
 .footer {
     background-color: #264653;
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    left: 0;
     padding: 1rem;
+    color: white;
 }
 
 .footer p {
@@ -15,4 +12,10 @@
 .footer-content {
     margin: 0 auto;
     max-width: 1200px;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-copyright {
+    color: white;
 }

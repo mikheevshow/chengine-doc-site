@@ -1,0 +1,15 @@
+.menu-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 20px;
+}
+
+.menu-item .menu-item-title {
+    color: lightgray;
+    font-weight: bolder;
+}
+
+.menu-item .menu-item-link {
+    color: white;
+}
