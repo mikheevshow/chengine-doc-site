@@ -6,10 +6,10 @@
 }
 
 .menu-item .menu-item-title {
-    color: lightgray;
+    color: white;
     font-weight: bolder;
 }
 
 .menu-item .menu-item-link {
-    color: white;
+    color: lightgray;
 }

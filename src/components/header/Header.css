@@ -8,7 +8,8 @@
 }
 
 .header .header-logo {
-    font-weight: bold;
+    font-weight: 900;
+    font-style: italic;
     text-decoration: none;
 
 }

@@ -11,7 +11,7 @@ class Header extends React.Component {
             <header className="header">
                 <Navbar className="header-content">
                     <NavbarBrand className="header-logo">
-                        <Link to="/">{siteName}</Link>
+                        <Link to="/" style={{ textDecoration: 'none', color: 'white' }}>{siteName}</Link>
                     </NavbarBrand>
                     <Nav className="mr-auto">
                         {

@@ -1,0 +1,33 @@
+.code-block {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    margin-bottom: 50px;
+}
+
+.code-block-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.code-block-title {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+
+.code-block-text {
+    font-size: 17px;
+    line-height: 24px;
+    padding-right: 50px;
+}
+
+.code-block-content-column {
+    width: 50%;
+}
+
+.code-block-code {
+    max-height: 300px;
+    overflow-x: hidden;
+}

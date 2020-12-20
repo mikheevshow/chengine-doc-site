@@ -50,3 +50,11 @@ a {
   -ms-user-select: none;
   user-select: none;
 }
+
+.article-divider {
+  height: 1px;
+  border-radius: 1px;
+  background-color: lightgray;
+  width: 100%;
+  margin-bottom: 20px;
+}
