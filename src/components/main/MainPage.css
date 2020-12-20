@@ -46,7 +46,7 @@
 .main-page-advantages {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-bottom: 50px;
 }
 

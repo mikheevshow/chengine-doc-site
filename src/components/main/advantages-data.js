@@ -6,7 +6,7 @@ export const advantages = [
     },
     {
         title: 'Интегрирован со Spring Boot <img height="20" src="https://img.icons8.com/color/144/000000/spring-logo.png"/> ',
-        content: '<strong>Chengine</strong> имеет интеграцию со Spring Boot из коробки. Специальный набор аннотаций позволит создавать ' +
+        content: 'Chengine имеет интеграцию со Spring Boot из коробки. Специальный набор аннотаций позволит создавать ' +
             'Spring компоненты и пользоваться механизмом Dependency Injection без препятствий'
     },
     {

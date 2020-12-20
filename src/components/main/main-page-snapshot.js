@@ -36,7 +36,8 @@ export const mainPageSnapshot = {
                 '<span class="text-badge text-monospace">@ComponentHandler</span> и <span class="text-badge text-monospace">' +
                 '@HandleCommand</span>.<br><br>' +
                 'Для отправки сообщений пользователю используйте объект <span class="text-badge text-monospace">Send</span>. ' +
-                ''
+                'Этот объект позволит вам посылать пользователю как обычные текстовые сообщения, так и различный медиа контент: ' +
+                'изображения, аудио/видео и прочие файлы.'
             + '',
             code: '@ComponentHandler\n' +
                 'public class HelloHandler {\n\n' +
