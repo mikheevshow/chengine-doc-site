@@ -14,7 +14,7 @@ class CodeBlock extends React.Component {
                 <h3 className="code-block-title text-left">{title}</h3>
                 <div className="code-block-content">
                     <p className="code-block-text code-block-content-column text-left">{ReactHtmlParser(text)}</p>
-                    <Prism className="code-block-code code-block-content-column" sh language="java" style={tomorrow}>{code}</Prism>
+                    <Prism s className="code-block-code code-block-content-column" sh language="java" style={tomorrow}>{code}</Prism>
                 </div>
             </div>
         )

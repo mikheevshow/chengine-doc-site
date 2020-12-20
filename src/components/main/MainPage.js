@@ -17,9 +17,7 @@ class MainPage extends React.Component {
                             <p className="main-page-landing-p">Java фреймворк для создания чат ботов 🤖</p>
                         </div>
                         <div className="main-page-landing-buttons">
-                            {mainPageSnapshot.cards.map(item => {
-                                return (<Card {...item}/>)
-                            })}
+                            {mainPageSnapshot.cards.map(item => {return (<Card {...item}/>)})}
                         </div>
                     </div>
 
@@ -34,10 +32,9 @@ class MainPage extends React.Component {
                         })}
                     </div>
 
-                    {mainPageSnapshot.codeExamples.map(item => {
-                        return (<CodeBlock {...item}/>)
-                    })}
+                    <div className="article-divider"/>
 
+                    {mainPageSnapshot.codeExamples.map(item => {return (<CodeBlock {...item}/>)})}
                 </div>
             </div>
         )
